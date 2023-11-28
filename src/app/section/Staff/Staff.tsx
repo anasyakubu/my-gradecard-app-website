@@ -1,23 +1,17 @@
 import React from "react";
-import Nav from "../../components/Nav";
-import "./HomeHeader.scss";
 import Image from "next/image";
-import PhoneDashBoard from "../../../../public/dashboard-lap.png";
+import PhoneDashBoard from "../../../../public/staff-mobile-laptop.png";
 import PrimaryBtn from "@/app/components/PrimaryBtn";
-// import { BsAirplaneEnginesFill } from "react-icons/bs";
-//import { Fade } from "react-awesome-reveal";
+import "./Staff.scss";
 
-// #f2f7f8 bg
-// #3d4f60 text
-const HomeHeader = () => {
+const Staff = () => {
   return (
     <div
-      className="HomeHeader"
+      className="Staff"
       style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
     >
-      <Nav />
-      <div className="lg:px-6">
-        <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
+      <div className="pt-10">
+        <div className="p-5 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           <div className="text-center mt-10 pt-10">
             <Image className="phoneImg" src={PhoneDashBoard} alt="Logo" />
           </div>
@@ -26,9 +20,9 @@ const HomeHeader = () => {
             <div className="text">
               <h1
                 className="text-2xl font-extrabold tracking-wide shadow-2 sm:text-4xl"
-                style={{ color: "#1D4ED8" }} //#122231
+                style={{ color: "#122231" }} //#122231
               >
-                RUNNING YOUR SCHOOL SMARTLY
+                My Staff
               </h1>
               <p
                 className="mt-4 text-md leading-8"
@@ -41,7 +35,7 @@ const HomeHeader = () => {
               </p>
             </div>
             <div className="flex mt-10">
-              <PrimaryBtn text="Get your school on board" />
+              <PrimaryBtn text="Start free trial" />
             </div>
           </div>
         </div>
@@ -50,4 +44,4 @@ const HomeHeader = () => {
   );
 };
 
-export default HomeHeader;
+export default Staff;

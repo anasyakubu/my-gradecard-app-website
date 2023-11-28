@@ -32,7 +32,7 @@ const Student = () => {
               </p>
             </div>
             <div className="flex mt-10">
-              <PrimaryBtn text="Get started" />
+              <PrimaryBtn text="Start free trial" />
             </div>
           </div>
           <div className="text-center mt-10 pt-10">
