@@ -1,0 +1,32 @@
+.HomeHeader {
+  .phoneImg {
+    animation: move 2s infinite ease alternate;
+  }
+
+  @keyframes move {
+    from {
+      transform: translateY(-15px);
+    }
+
+    // to {
+    //   transform: translateY(0px) scale(1.03);
+    // }
+  }
+}
+
+@media (max-width: 600px) {
+  .HomeHeader {
+    .text {
+      margin-top: 5%;
+
+      .ImgMe {
+        width: 300px;
+      }
+    }
+    .pl-3 {
+      padding-left: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
