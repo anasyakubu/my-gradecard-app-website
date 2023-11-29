@@ -18,6 +18,7 @@ const HomeHeader = () => {
       <Nav />
       <div className="lg:px-6">
         <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
+          {/* py-24 sm:py-0 */}
           <div className="text-center mt-10 pt-10">
             <Image className="phoneImg" src={PhoneDashBoard} alt="Logo" />
           </div>

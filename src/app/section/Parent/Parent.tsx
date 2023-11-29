@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import PhoneDashBoard from "../../../../public/student-mobile-laptop.png";
+import PhoneDashBoard from "../../../../public/parent-mobile-laptop.png";
 import PrimaryBtn from "@/app/components/PrimaryBtn";
-import "./Student.scss";
+import "./Parent.scss";
 
-const Student = () => {
+const Parent = () => {
   return (
     <div
-      className="Student"
+      className="Parent"
       style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
     >
       <div className="pt-10">
@@ -19,7 +19,7 @@ const Student = () => {
                 className="text-2xl font-extrabold tracking-wide shadow-2 sm:text-4xl"
                 style={{ color: "#122231" }} //#122231
               >
-                Manage Your Student Smartly
+                Manage Your Parent Smartly
               </h1>
               <p
                 className="mt-4 text-md leading-8"
@@ -48,4 +48,4 @@ const Student = () => {
   );
 };
 
-export default Student;
+export default Parent;

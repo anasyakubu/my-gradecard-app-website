@@ -1,0 +1,21 @@
+// .join {
+//   .JoinCard {
+//     background: linear-gradient(
+//       90deg,
+//       rgba(184, 203, 248, 0.4) 0%,
+//       rgba(225, 233, 252, 0.4) 100%
+//     );
+//   }
+// }
+
+@media (max-width: 600px) {
+  .Join {
+    .p-10 {
+      padding: 6%;
+
+      .p-20 {
+        padding: 10%;
+      }
+    }
+  }
+}
