@@ -9,7 +9,7 @@ const Join = () => {
     <div className="Join bg-white">
       <div className="p-10">
         <div
-          className="JoinCard rounded-lg shadow-lg p-20 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0"
+          className="JoinCard rounded-lg shadow-xl p-20 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0"
           style={{ backgroundColor: "#f2f7f8", color: "#3d4f60" }}
         >
           <div

@@ -7,6 +7,8 @@ import Parent from "../section/Parent/Parent";
 import Join from "../section/Join/Join";
 import Video from "../section/Video/Video";
 import Pricing from "../section/Pricing/Pricing";
+import AI from "../section/AI/AI";
+import GetReady from "../section/GetReady/GetReady";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Join />
       {/* <Video /> */}
       {/* <Pricing /> */}
+      <AI />
+      <GetReady />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-.Student {
+.GetReady {
   .phoneImg {
     animation: move 1s infinite ease alternate;
   }
@@ -11,5 +11,18 @@
     // to {
     //   transform: translateY(0px) scale(1.03);
     // }
+  }
+}
+
+@media (max-width: 600px) {
+  .GetReady {
+    .p-20 {
+      padding: 3%;
+      padding-top: 5%;
+
+      .p-20 {
+        padding: 10%;
+      }
+    }
   }
 }
